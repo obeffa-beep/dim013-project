@@ -12,7 +12,7 @@ def load_data(path: str) -> pd.DataFrame:
     Returns:
         The loaded data.
     """
-    return pd.read_csv(path, encoding="utf-8-sig")
+    return pd.read_csv(path, encoding="utf-8-sig", sep=",")
 
 
 if __name__ == "__main__":
